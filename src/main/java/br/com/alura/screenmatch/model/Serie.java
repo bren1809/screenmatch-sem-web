@@ -29,7 +29,7 @@ public class Serie {
     private String poster;
     private String sinopse;
 
-    @Transient
+    @OneToMany(mappedBy = "serie")
     private List<Episodio> episodios = new ArrayList<>();
 
     public Serie() {}
@@ -43,6 +43,8 @@ public class Serie {
         this.poster = dadosSerie.poster();
         this.sinopse = ConsultaDeepL.obterTraducao(dadosSerie.sinopse()).trim();
     }
+
+
 
     public List<Episodio> getEpisodios() {
         return episodios;
