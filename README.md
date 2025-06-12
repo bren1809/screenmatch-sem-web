@@ -1,4 +1,4 @@
-# 🎬 Screenmatch Sem Web ()
+# 🎬 Screenmatch Sem Web
 
 Um projeto backend em Java com Spring Boot para gerenciamento de filmes e séries, com tradução de sinopses via API da DeepL — **sem interface web**, focado em estrutura, persistência de dados e integração com APIs externas.
 
@@ -21,6 +21,7 @@ Este projeto ainda está em desenvolvimento. Novas funcionalidades e melhorias e
 
 - Cadastro e persistência de filmes e séries no banco de dados.
 - Busca e listagem dos títulos salvos.
+- Utilização de Streams, Lambdas, Spring Framework
 - Tradução de sinopses automaticamente para o português via API DeepL.
 - Arquitetura desacoplada e organizada (Camadas: Controller, Service, Repository, Domain).
 
