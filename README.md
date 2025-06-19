@@ -13,6 +13,7 @@ Este projeto ainda está em desenvolvimento. Novas funcionalidades e melhorias e
 - **Spring Boot**
 - **Spring Data JPA**
 - **PostgreSQL**
+- **JPQL (Java Persistence Query Language)**
 - **API DeepL (para tradução de textos)**
 
 ---
